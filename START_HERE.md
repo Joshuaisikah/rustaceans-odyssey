@@ -17,6 +17,12 @@ Overview of all resources
 - Learning philosophy
 - Progress tracking
 
+### 📚 **BOOKS_GUIDE.md** (Complete reading roadmap)
+- How to use Programming Rust + Rust for Rustaceans together
+- Chapter mapping between both books
+- Topic-by-topic reading order
+- When to use which book
+
 ### 3️⃣ **GETTING_STARTED.md** (5.5 KB)
 - Your first steps
 - How to begin your first project

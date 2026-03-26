@@ -4,6 +4,15 @@
 
 > "The only way to truly master Rust is to build something that makes you question everything you know about programming."
 
+## 📚 Learning Resources
+
+This journey uses **two complementary books**:
+
+- **Programming Rust** (O'Reilly) - Comprehensive foundation & reference
+- **Rust for Rustaceans** (No Starch) - Advanced patterns & production practices
+
+See `BOOKS_GUIDE.md` for complete reading roadmap and how to use both books together.
+
 ## 🎯 Mission
 Build **5 complete, production-quality projects** that will force you to:
 - Read and re-read "Rust for Rustaceans"
