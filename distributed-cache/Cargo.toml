@@ -1,0 +1,7 @@
+[package]
+name = "distributed-cache"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]

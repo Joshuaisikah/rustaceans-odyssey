@@ -1,0 +1,7 @@
+[package]
+name = "systems-monitor"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
