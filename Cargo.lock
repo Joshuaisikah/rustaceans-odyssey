@@ -15,6 +15,22 @@ name = "distributed-cache"
 version = "0.1.0"
 
 [[package]]
+name = "lock-free-queue"
+version = "0.1.0"
+
+[[package]]
+name = "memory-allocator"
+version = "0.1.0"
+
+[[package]]
+name = "network-protocol"
+version = "0.1.0"
+
+[[package]]
+name = "operating-system"
+version = "0.1.0"
+
+[[package]]
 name = "systems-monitor"
 version = "0.1.0"
 

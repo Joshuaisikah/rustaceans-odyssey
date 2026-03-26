@@ -1,11 +1,18 @@
 [workspace]
 resolver = "2"
 members = [
+    # Core 5 Projects - Production-Grade Systems
     "distributed-cache",
     "async-runtime",
     "database-engine",
     "vm-runtime",
     "systems-monitor",
+
+    # Advanced Projects - Specialized & Production-Ready
+    "network-protocol",      # Custom binary protocol + codec
+    "lock-free-queue",       # Lock-free data structures
+    "memory-allocator",      # Custom allocator implementation
+    "operating-system",      # Bare-metal OS kernel basics
 ]
 
 [workspace.package]
@@ -18,3 +25,5 @@ tokio = { version = "1.42", features = ["full"] }
 serde = { version = "1.0", features = ["derive"] }
 anyhow = "1.0"
 thiserror = "2.0"
+crossbeam = "0.8"
+parking_lot = "0.12"

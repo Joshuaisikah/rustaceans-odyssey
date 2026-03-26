@@ -20,7 +20,7 @@ Build **5 complete, production-quality projects** that will force you to:
 - Understand the *why* behind Rust's design decisions
 - Master unsafe code, concurrency, type systems, and performance optimization
 
-## 📚 The Five Pillars
+## 📚 Core Projects (5)
 
 ### 1. **Distributed Cache** (`distributed-cache/`)
 **Concepts Mastered:**
@@ -84,6 +84,51 @@ Build **5 complete, production-quality projects** that will force you to:
 - Cross-platform development
 
 **Chapters:** 6, 9-12
+
+---
+
+## 🔥 Advanced Projects (4)
+
+**Expert-level systems programming:**
+
+### 6. **Custom Network Protocol** (`network-protocol/`)
+**Concepts Mastered:**
+- Zero-copy serialization
+- Binary protocol design
+- Code generation with proc macros
+- 10GB/s+ throughput
+
+**Chapters:** 1, 2, 7-9, 11
+
+### 7. **Lock-Free Queue** (`lock-free-queue/`)
+**Concepts Mastered:**
+- CAS-based algorithms
+- Memory ordering (Acquire/Release)
+- Epoch-based reclamation
+- Wait-free progress guarantees
+
+**Chapters:** 1, 9, 10, 12
+
+### 8. **Custom Memory Allocator** (`memory-allocator/`)
+**Concepts Mastered:**
+- GlobalAlloc implementation
+- Arena/Pool/Slab allocators
+- Thread-local caching
+- Zero fragmentation design
+
+**Chapters:** 1, 9, 10, 12
+
+### 9. **Bare-Metal OS** (`operating-system/`)
+**Concepts Mastered:**
+- #![no_std] programming
+- Interrupt handling
+- Memory paging
+- Task scheduling
+- Device drivers
+
+**Chapters:** ALL + Assembly + Hardware
+
+See `ADVANCED_PROJECTS.md` for detailed specifications.
 
 ---
 
